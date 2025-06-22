@@ -6,3 +6,11 @@
 
 ## how to use
 see `test.odin`
+
+## how to run example
+- go into the root folder of lexer.odin
+- run
+```console
+$ odin run out
+$ ./out/test
+```
