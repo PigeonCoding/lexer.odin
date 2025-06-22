@@ -9,12 +9,7 @@ DEBUG := true
 main :: proc() {
   b: odin_cmd_builder
   b.main_cmd = .build
-  if ODIN_OS == .Linux {
-    b.flags.out = "out/test"
-  } else {
-    fmt.println("unsupported os", ODIN_OS)
-    os2.exit(1)
-  }
+  b.flags.out = "out/test"
   b.directory = "."
   b.flags.thread_count = 4
   if DEBUG {
