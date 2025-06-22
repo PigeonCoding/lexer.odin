@@ -1,0 +1,4 @@
+int main() {
+  some_func("hi", 420)
+  return 69;
+}

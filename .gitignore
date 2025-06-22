@@ -1,0 +1,3 @@
+.zed
+out/*
+!out/*.odin
