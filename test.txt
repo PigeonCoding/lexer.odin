@@ -1,5 +1,6 @@
 int main() {
   some_func("hi", 420)
+  // this is a comment
   if (49 == 420)
   return 69;
 }
